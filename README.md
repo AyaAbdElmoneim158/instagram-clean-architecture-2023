@@ -7,3 +7,4 @@
 </div>
 
 <b>🔹Add App Structure<br>
+<b>🔹Add Firebase to project<br>
