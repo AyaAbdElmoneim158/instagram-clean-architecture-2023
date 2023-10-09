@@ -10,5 +10,7 @@
 <b>🔹Add Firebase to project<br>
 <b>🔹Add Config `Assets` `consts` <br>
 <b>🔹Add Auth Ui<br>
+<b>🔹Add Home Ui<br>
+
 
 

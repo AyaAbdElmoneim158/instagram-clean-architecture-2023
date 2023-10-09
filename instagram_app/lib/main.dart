@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_app/features/presentation/pages/Auth/login_page.dart';
+import 'package:instagram_app/features/presentation/pages/Main/main_screen.dart';
 
 void main() {
   runApp(const InstagramApp());
@@ -13,7 +13,7 @@ class InstagramApp extends StatelessWidget {
       title: 'Instagram App ',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: const LoginPage(),
+      home: const MainScreen(),
     );
   }
 }
