@@ -8,3 +8,5 @@
 
 <b>🔹Add App Structure<br>
 <b>🔹Add Firebase to project<br>
+<b>🔹Add Config `Assets` `consts` 
+
