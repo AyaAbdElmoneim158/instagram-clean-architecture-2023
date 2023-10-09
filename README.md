@@ -8,5 +8,7 @@
 
 <b>🔹Add App Structure<br>
 <b>🔹Add Firebase to project<br>
-<b>🔹Add Config `Assets` `consts` 
+<b>🔹Add Config `Assets` `consts` <br>
+<b>🔹Add Auth Ui<br>
+
 
