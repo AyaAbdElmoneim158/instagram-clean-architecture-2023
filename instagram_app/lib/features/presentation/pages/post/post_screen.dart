@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_app/core/consts.dart';
 
 class PostScreen extends StatelessWidget {
   const PostScreen({Key? key}) : super(key: key);
@@ -6,9 +7,13 @@ class PostScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Center(
-      child: Text(
-        "Post",
-        style: TextStyle(color: Colors.white),
+      child: CircleAvatar(
+        radius: 64,
+        backgroundColor: AppColors.secondaryColor,
+        child: Icon(
+          Icons.upload,
+          color: AppColors.primaryColor,
+        ),
       ),
     );
   }

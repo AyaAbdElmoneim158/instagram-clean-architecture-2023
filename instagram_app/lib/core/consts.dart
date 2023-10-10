@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:fluttertoast/fluttertoast.dart';
 //|> Colors --------------------------------------------------------------------
 class AppColors {
   static const Color backGroundColor = Color.fromRGBO(0, 0, 0, 1.0);
@@ -12,3 +12,13 @@ class AppColors {
 //|> General Widget ------------------------------------------------------------
 Widget sizeVer(double height) => SizedBox(height: height);
 Widget sizeHor(double width) => SizedBox(width: width);
+void toast(String message) {
+  Fluttertoast.showToast(
+      msg: message,
+      toastLength: Toast.LENGTH_SHORT,
+      gravity: ToastGravity.BOTTOM,
+      timeInSecForIosWeb: 1,
+      backgroundColor:AppColors.blueColor,
+      textColor: Colors.white,
+      fontSize: 16.0);
+}

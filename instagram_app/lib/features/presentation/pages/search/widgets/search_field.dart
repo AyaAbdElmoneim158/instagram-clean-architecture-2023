@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_projects/02.Instagram_Clean_Architecture/core/consts.dart';
+import 'package:instagram_app/core/consts.dart';
 
 class SearchField extends StatelessWidget {
   final TextEditingController controller;

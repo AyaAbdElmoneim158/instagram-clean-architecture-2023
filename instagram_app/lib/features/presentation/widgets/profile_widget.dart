@@ -16,7 +16,11 @@ Widget profileWidget({String? imageUrl, File? image}) {
         imageUrl: imageUrl,
         fit: BoxFit.cover,
         progressIndicatorBuilder: (context, url, downloadProgress) {
-          return const CircularProgressIndicator();
+          return const SizedBox(
+            height: 10.0,
+            width: 10.0,
+            child: Center(child: CircularProgressIndicator()),
+          );
         },
         errorWidget: (context, url, error) => Image.asset(
           AppAssets.defaultProfile,

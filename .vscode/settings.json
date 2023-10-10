@@ -3,6 +3,8 @@
         "consts",
         "firestore",
         "fluttertoast",
+        "Ionicons",
+        "occured",
         "RGBO",
         "signup"
     ]

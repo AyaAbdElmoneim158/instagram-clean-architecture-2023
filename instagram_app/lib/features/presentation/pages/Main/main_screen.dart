@@ -7,6 +7,7 @@ import 'package:instagram_app/features/presentation/pages/home/home_screen.dart'
 import 'package:instagram_app/features/presentation/pages/post/post_screen.dart';
 import 'package:instagram_app/features/presentation/pages/profile/profile_screen.dart';
 import 'package:instagram_app/features/presentation/pages/search/search_screen.dart';
+import 'package:flutter_icons_null_safety/flutter_icons_null_safety.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -57,7 +58,7 @@ class _MainScreenState extends State<MainScreen> {
           items: [
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.home,
+                MaterialCommunityIcons .home_variant,
                 color: _currentIndex == 0
                     ? AppColors.primaryColor
                     : AppColors.darkGreyColor,
@@ -66,7 +67,7 @@ class _MainScreenState extends State<MainScreen> {
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.search,
+                Ionicons.md_search,
                 color: _currentIndex == 1
                     ? AppColors.primaryColor
                     : AppColors.darkGreyColor,
@@ -75,7 +76,7 @@ class _MainScreenState extends State<MainScreen> {
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.add_circle_outline_rounded,
+                Ionicons.md_add_circle,
                 color: _currentIndex == 2
                     ? AppColors.primaryColor
                     : AppColors.darkGreyColor,
@@ -93,7 +94,7 @@ class _MainScreenState extends State<MainScreen> {
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.person_pin_circle,
+                Icons.account_circle_outlined,
                 color: _currentIndex == 4
                     ? AppColors.primaryColor
                     : AppColors.darkGreyColor,
